@@ -11,7 +11,7 @@ do
     fi
 done
 
-killall Proxifier
+killall Proxifier 1>/dev/null 2>/dev/null
 sleep 2
 cp proxifier.template ~/Library/Application\ Support/Proxifier/Profiles/default.ppx
 sed -i '' "s/{{PROXY_ADDRESS}}/$deviceip/g" ~/Library/Application\ Support/Proxifier/Profiles/default.ppx
