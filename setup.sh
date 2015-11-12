@@ -4,7 +4,7 @@ localip=`/sbin/ifconfig en0 |grep 'inet ' |xargs -L1 |cut -d ' ' -f2`
 echo "Waiting for iDevice..."
 while :
 do
-    deviceip=`ping -c2 -t2 169.254.255.255 |grep 'bytes from' |grep -v 169.254.187.14 |cut -d ' ' -f4 |cut -d ':' -f1`
+    deviceip=`ping -c2 -t2 169.254.255.255 |grep 'bytes from' |grep -v "$localip" |cut -d ' ' -f4 |cut -d ':' -f1`
 
     if [ "$deviceip" != "" ] ; then
         break
