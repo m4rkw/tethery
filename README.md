@@ -34,6 +34,9 @@ Known issues
 
 vSSH seems to crash intermittently.  Not sure why this is yet, but I will raise it with the author.
 
+Update 17/11/15: I have received a response from Velestar about the intermittent crash, they are
+looking into it.
+
 
 Setup
 -----
