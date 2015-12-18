@@ -34,6 +34,9 @@ Known issues
 
 vSSH seems to crash intermittently.  Not sure why this is yet, but I will raise it with the author.
 
+Update 18/12/15: Velestar have confirmed that they have reproduced and fixed the issue and the
+fix will go out with the next release, however this likely won't be before January 2016.
+
 Update 17/11/15: I have received a response from Velestar about the intermittent crash, they are
 looking into it.
 
