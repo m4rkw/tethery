@@ -7,6 +7,7 @@ Version history
 
 - 0.1 - Initial release
 - 0.2 - Added automatic IP detection
+- 0.3 - Make setup.sh a bit more reliable
 
 
 Description
