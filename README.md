@@ -32,13 +32,8 @@ Requires:
 Known issues
 ------------
 
-vSSH seems to crash intermittently.  Not sure why this is yet, but I will raise it with the author.
-
-Update 18/12/15: Velestar have confirmed that they have reproduced and fixed the issue and the
-fix will go out with the next release, however this likely won't be before January 2016.
-
-Update 17/11/15: I have received a response from Velestar about the intermittent crash, they are
-looking into it.
+26/02/16: I am pleased to report that the latest version of vSSH has fixed the intermittent crashes
+and the proxy now works perfectly!
 
 
 Setup
@@ -59,6 +54,8 @@ Save this profile with a name like "tether".
 
 Usage
 -----
+
+0. Disable internet connection sharing via wifi on the mac (if enabled).
 
 1. Create an ad-hoc wifi network on your mac.  I find channel 1 works best.
 
