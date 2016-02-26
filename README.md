@@ -7,7 +7,7 @@ Version history
 
 - 0.1 - Initial release
 - 0.2 - Added automatic IP detection
-- 0.3 - Make setup.sh a bit more reliable
+- 0.3 - Make tethery.sh a bit more reliable
 
 
 Description
@@ -17,7 +17,7 @@ This will allow you to tether a mac to an iOS device in order to use its 3G/4G d
 It works even if Apple's "personal hotspot" function is not available, and also disguises the
 traffic such that the carrier cannot detect that you're tethering.
 
-Warning: if you have any configuration already in Proxifier, running setup.sh will erase it!
+Warning: if you have any configuration already in Proxifier, running tethery.sh will erase it!
 
 You have been warned!
 
@@ -64,9 +64,9 @@ Usage
 
 3. Open vSSH on the phone and initiate the connection to your "tether" profile.
 
-4. Run setup.sh on the mac with:
+4. Run tethery.sh on the mac with:
 
-    ./setup.sh
+    ./tethery.sh
 
 It will automatically detect the IP address of the iDevice on the network and initiate the proxy.
 Be patient as the iDevice will take a minute or so to self-assign its IP before it can be detected.
